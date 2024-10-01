@@ -25,8 +25,6 @@ import (
 	"syscall"
 
 	"golang.org/x/sys/unix"
-
-	"github.com/osrg/gobgp/v3/pkg/log"
 )
 
 func buildTcpMD5Sig(address, key string) *unix.TCPMD5Sig {

@@ -21,8 +21,6 @@ import (
 	"fmt"
 	"net"
 	"syscall"
-
-	"github.com/osrg/gobgp/v3/pkg/log"
 )
 
 func SetTCPMD5SigSockopt(l *net.TCPListener, address string, key string) error {
