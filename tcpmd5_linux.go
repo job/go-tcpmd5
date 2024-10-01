@@ -20,9 +20,7 @@ package tcpmd5
 import (
 	"fmt"
 	"net"
-	"os"
 	"strings"
-	"syscall"
 
 	"golang.org/x/sys/unix"
 )
