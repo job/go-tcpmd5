@@ -12,6 +12,8 @@
 // implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+//go:build !linux && !dragonfly && !freebsd && !netbsd && !openbsd && !darwin && !windows
+// +build !linux,!dragonfly,!freebsd,!netbsd,!openbsd,!darwin,!windows
 
 package tcpmd5
 
