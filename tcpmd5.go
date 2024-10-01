@@ -16,9 +16,7 @@
 package tcpmd5
 
 import (
-	"fmt"
 	"net"
-	"syscall"
 )
 
 func SetTCPMD5SigSockopt(l *net.TCPListener, address string, key string) error {
